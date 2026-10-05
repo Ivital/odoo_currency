@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:currency_rate_update_xe.field_res_currency_rate_provider__service
 msgid "Provider"
 msgstr "Провайдер"
+
+#. module: currency_rate_update_xe
+#: model:ir.model,name:currency_rate_update_xe.model_res_currency_rate_provider
+msgid "Currency Rates Provider"
+msgstr "Постачальник валютних курсів"
