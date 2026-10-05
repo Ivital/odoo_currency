@@ -141,12 +141,14 @@ msgid ""
 "Currency Rate Provider \"%(name)s\" failed to obtain data since %(date_from)s until %(date_to)s:\n"
 "%(error)s"
 msgstr ""
+"Провайдер валютного курсу «%(name)s» не зміг отримати дані від %(date_from)s до %(date_to)s:\n"
+"%(error)s"
 
 #. module: currency_rate_update
 #. odoo-python
 #: code:addons/currency_rate_update/models/res_currency_rate_provider.py:0
 msgid "Currency Rate Provider Failure"
-msgstr ""
+msgstr "Помилка провайдера валютних курсів"
 
 #. module: currency_rate_update
 #: model:ir.model,name:currency_rate_update.model_res_currency_rate_update_wizard
@@ -247,7 +249,7 @@ msgstr "Неактивний"
 #. odoo-python
 #: code:addons/currency_rate_update/models/res_currency_rate_provider.py:0
 msgid "Invalid rate from %(provider)s for %(currency)s: %(rate)s"
-msgstr ""
+msgstr "Недійсний курс від %(provider)s для %(currency)s: %(rate)s"
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate__message_is_follower
@@ -384,7 +386,7 @@ msgstr "Цього постачальника вже налаштовано в �
 #. odoo-python
 #: code:addons/currency_rate_update/models/res_currency_rate_provider.py:0
 msgid "Unknown currency from %(provider)s: %(rate)s"
-msgstr ""
+msgstr "Невідома валюта від %(provider)s: %(rate)s"
 
 #. module: currency_rate_update
 #: model_terms:ir.ui.view,arch_db:currency_rate_update.res_currency_rate_update_wizard_form
